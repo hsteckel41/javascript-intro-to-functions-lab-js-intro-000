@@ -30,7 +30,7 @@ describe('logShout(string)', function() {
   })
 })
 function logShout(string) {
-  console.log.toLowerCase()
+  console.log.toUpperCase()
 }
 
 describe('logWhisper(string)', function() {
